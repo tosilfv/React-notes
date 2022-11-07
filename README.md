@@ -12,7 +12,7 @@ This is a simple note app where a note can be added, modified and deleted.<br />
 
 ## Design decisions
 
-The app is written using Hooks (New React).
+The app is written using Hooks (New React) and it utilizes the Material.ui library.
 
 ## Known errors
 
