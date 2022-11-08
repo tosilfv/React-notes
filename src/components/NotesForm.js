@@ -29,7 +29,9 @@ export default function NotesForm() {
         style={theme.notesform.box}
       >
         <Paper elevation={3} style={theme.notesform.paper}>
-          <Typography variant="h4">Add Note</Typography>
+          <Typography variant="h4" style={theme.notesform.typography}>
+            Add Note
+          </Typography>
           <NotesInput
             htmlFor="title"
             id="title"
