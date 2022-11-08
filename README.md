@@ -12,7 +12,8 @@ This is a simple note app where a note can be added, modified and deleted.<br />
 
 ## Design decisions
 
-The app is written using Hooks (New React) and it utilizes the Material.ui library.
+The app is written using Hooks (New React) and it utilizes the Material.ui library.<br />
+The Note images use a search query sent to the https://api.tvmaze.com
 
 ## Known errors
 

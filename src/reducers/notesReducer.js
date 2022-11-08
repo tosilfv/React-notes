@@ -6,8 +6,8 @@ export default function notesReducer(state, action) {
         {
           title: action.title,
           message: action.message,
-          due: action.due,
-          important: action.important,
+          due: null,
+          important: false,
           id: action.id,
         },
       ];
@@ -18,8 +18,8 @@ export default function notesReducer(state, action) {
               ...note,
               title: action.title,
               message: action.message,
-              due: action.due,
-              important: action.important,
+              due: null,
+              important: false,
             }
           : note
       );
