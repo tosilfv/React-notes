@@ -6,14 +6,14 @@ import NotesList from "./NotesList";
 export default function Notes() {
   const theme = useTheme();
   return (
-    <>
-      <Typography variant="h4" style={{ textAlign: theme.notes.textAlign }}>
-        Notes
+    <div style={theme.notes.divOuter}>
+      <Typography variant="h2" style={theme.notes.typography}>
+        My Notes
       </Typography>
-      <div style={theme.notes.div}>
+      <div style={theme.notes.divInner}>
         <NotesForm />
         <NotesList />
       </div>
-    </>
+    </div>
   );
 }

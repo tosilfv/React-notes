@@ -40,11 +40,10 @@ export default function Note({ note }) {
       <CardHeader
         avatar={
           <Avatar style={theme.note.avatar.important} aria-label="note title">
-            important
+            {note.title}
           </Avatar>
         }
         title={note.title}
-        subheader={`DL: ${note.due}`}
       />
       <CardMedia
         component="img"

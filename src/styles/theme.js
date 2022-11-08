@@ -4,7 +4,7 @@ export const theme = createTheme({
   note: {
     avatar: {
       important: {
-        backgroundColor: "red",
+        backgroundColor: "lightblue",
       },
       notImportant: {
         backgroundColor: "blue",
@@ -24,11 +24,18 @@ export const theme = createTheme({
     },
   },
   notes: {
-    div: {
+    divInner: {
       display: "flex",
       flexDirection: "row-reverse",
     },
-    textAlign: "center",
+    divOuter: {
+      backgroundColor: "black",
+    },
+    typography: {
+      color: "violet",
+      fontWeight: "800",
+      textAlign: "center",
+    },
   },
   notesform: {
     box: {
@@ -47,6 +54,10 @@ export const theme = createTheme({
       marginTop: "10px",
       padding: "40px",
       textAlign: "center",
+    },
+    typography: {
+      color: "darkblue",
+      fontWeight: "800",
     },
   },
   noteslist: {
